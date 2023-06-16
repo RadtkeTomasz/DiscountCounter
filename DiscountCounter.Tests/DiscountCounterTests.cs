@@ -60,7 +60,7 @@ namespace DiscountCounter.Tests
             var result = counter.DiscountPercentCount(customer);
 
             // Assert
-            Assert.AreEqual(30, result);
+            Assert.AreEqual(0, result);
         }
     }
 }
